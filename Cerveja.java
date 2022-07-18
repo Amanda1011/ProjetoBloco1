@@ -1,7 +1,7 @@
-package ProjetoBloco1;
+package ProjetoBloco1.ProjetoBloco1;
 
 public class Cerveja extends Deposito{
-	
+
 	private String semAlcool;
 	private String pilsen;
 	private String weiss;
@@ -10,13 +10,12 @@ public class Cerveja extends Deposito{
 	
 	public Cerveja(String nome, String marca, String fabricante, double preco, double codigoDeBarras, String semAlcool,
 	String pilsen, String weiss, String paleAle, String ale) {
-		super(nome, marca, fabricante, preco, codigoDeBarras);
+		super(nome, marca, fabricante, preco, codigoDeBarras, 0);
 		this.semAlcool = semAlcool;
 		this.pilsen = pilsen;
 		this.weiss = weiss;
 		this.paleAle = paleAle;
 		this.ale = ale;
-		
 	}
 	
 	public String getSemAlcool() {
@@ -59,5 +58,3 @@ public class Cerveja extends Deposito{
 		this.ale = ale;
 	}
 }
-
-

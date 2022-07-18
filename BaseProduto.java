@@ -1,4 +1,4 @@
-package ProjetoBloco1;
+package ProjetoBloco1.ProjetoBloco1;
 
 public abstract class BaseProduto {
 	
@@ -50,6 +50,7 @@ public abstract class BaseProduto {
 	
 	public abstract void imprimirInfo(); 
 	public abstract void taGelada();
+	public abstract void AplicarDesconto();
+	public abstract void DescontoEspecial();
+
 }
-	
-	

@@ -1,4 +1,4 @@
-package ProjetoBloco1;
+package ProjetoBloco1.ProjetoBloco1;
 
 public class Deposito {
 	
@@ -9,7 +9,7 @@ public class Deposito {
 	private double codigoDeBarras;
 	private double temperatura;
 	
-	public Deposito(String nome, String marca,String fabricante,double preco,double codigoDeBarras){
+	public Deposito(String nome, String marca,String fabricante,double preco,double codigoDeBarras, int i){
 		
 		this.nome=nome;
 		this.marca=marca;
@@ -17,7 +17,6 @@ public class Deposito {
 		this.preco=preco;
 		this.codigoDeBarras=codigoDeBarras;
 	}
-	
 	public void imprimirInfo(){
 		System.out.println("\nPedido da bebiba "+nome+", da marca "+marca+" e fabricante "+fabricante+
 				", tem o preco R$ "+preco+", e codigo de barras "+codigoDeBarras+".");
@@ -33,6 +32,8 @@ public class Deposito {
 		{
 			System.out.println("A bebida está quente");
 		}
+		
+		
 	}
 
 }
